@@ -1,10 +1,14 @@
-# Crashcourse
+# Task Tracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Fake REST API
+
+Run `npm run server' to start it. Navigate to `http://localhost:3000/` to check if everything worked out correctly. To see the json response from the db.json file, navigate to `http://localhost:3000/tasks`
 
 ## Code scaffolding
 
