@@ -1,0 +1,14 @@
+<!-- pass event object (task) to the addTask() function from service after 
+      EventEmitter(onAddTask) has been fired -->
+<app-add-task (onAddTask)="addTask($event)">
+
+</app-add-task>
+
+<!-- pass @Input property [task] of child to the specific task in the iteration -->
+<!-- call functions when signal is emitted -->
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onToggleReminder)="toggleReminder(task)"
+></app-task-item>
