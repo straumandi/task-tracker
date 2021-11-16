@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Fake REST API
 
-Run `npm run server' to start it. Navigate to `http://localhost:3000/` to check if everything worked out correctly. To see the json response from the db.json file, navigate to `http://localhost:3000/tasks`
+Run `npm run server to start it. Navigate to `http://localhost:3000/` to check if everything worked out correctly. To see the json response from the db.json file, navigate to `http://localhost:3000/tasks`
 
 ## Code scaffolding
 
